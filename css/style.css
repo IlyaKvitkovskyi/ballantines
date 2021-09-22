@@ -1,0 +1,90 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  background-image: url('../img/bg.jpg');
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.header {
+  display: flex;
+  padding-top: 46px;
+  justify-content: left;
+  align-items: flex-end;
+  margin-bottom: 240px;
+}
+
+.menu {
+  margin-left: 34px;
+}
+
+.menu__list {
+  display: flex;
+  margin-bottom: 2px;
+}
+
+.menu li + li {
+  margin-left: 25px;
+}
+
+.menu__title {
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration: none;
+}
+
+.item {
+  text-align: left;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.title {
+  font-weight: normal;
+  font-size: 120px;
+  line-height: 141px;
+}
+
+.text {
+  max-width: 674px;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 46px;
+}
+
+.slick-dots {
+  list-style: none;
+  display: flex;
+  justify-content: left;
+}
+
+.slick-dots li + li {
+  margin-left: 20px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  border: none;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  border-radius: 50%;
+}
